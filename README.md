@@ -58,6 +58,8 @@ case YOUR_IR_CODE:
   printstringenter("the IR Desktop Controller.");
   openapp("Notepad");
   break;
+```cpp
+
 Remote Programming
 With v2, you can easily program your device with new remotes:
 

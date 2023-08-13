@@ -71,11 +71,11 @@ With **v2**, you can easily program your device with new remotes:
 
 
 
-```cpp
+
 case NOTED_DOWN_IR_CODE:
   printstring("Your custom command here.");
   break;
-```cpp
+
 
 
 ## Additional Information

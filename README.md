@@ -60,24 +60,24 @@ case YOUR_IR_CODE:
   break;
 
 
-Remote Programming
-With v2, you can easily program your device with new remotes:
+### Remote Programming
+**With v2** , you can easily program your device with new remotes:
 
 Point the remote at the IR Desktop Controller.
 Press the desired button on the remote.
 The IR code will be displayed on the screen.
 Note down this code.
 Update the main code's switch case with the new IR code to assign functions.
-cpp
+
+
 Copy code
 case NOTED_DOWN_IR_CODE:
   printstring("Your custom command here.");
   break;
 Additional Information
 Our Website: https://www.leumas.tech
-Contact: Contact Us
+Contact: https://www.leumas.tech/contact
 Other Devices: Refer to our website for other innovative devices.
-Sources:
 Wire Library
 SSD1306Ascii
 IRremote

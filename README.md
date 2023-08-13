@@ -58,6 +58,8 @@ case YOUR_IR_CODE:
   printstringenter("the IR Desktop Controller.");
   openapp("Notepad");
   break;
+```cpp
+
 
 ## Remote Programming
 With **v2**, you can easily program your device with new remotes:
@@ -67,10 +69,14 @@ With **v2**, you can easily program your device with new remotes:
 4. Note down this code.
 5. Update the main code's switch case with the new IR code to assign functions.
 
+
+
 ```cpp
 case NOTED_DOWN_IR_CODE:
   printstring("Your custom command here.");
   break;
+```cpp
+
 
 ## Additional Information
 - **Our Website**: [https://www.leumas.tech](https://www.leumas.tech)

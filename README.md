@@ -51,14 +51,14 @@ Simulates a 4-key shortcut.
 
 To chain functions or execute multiple commands with a single button press, simply place the desired functions in a sequence:
 
-```cpp
+
 case YOUR_IR_CODE:
   printstring("Hi, this is");
   delay(500); // Optional: Give a brief delay between commands.
   printstringenter("the IR Desktop Controller.");
   openapp("Notepad");
   break;
-```cpp
+
 
 Remote Programming
 With v2, you can easily program your device with new remotes:

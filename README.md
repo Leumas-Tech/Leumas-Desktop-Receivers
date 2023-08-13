@@ -54,7 +54,7 @@ Absolutely! Here's your content presented in an attractive markdown format:
 
 To chain functions or execute multiple commands with a single button press, simply place the desired functions in a sequence:
 
-cpp
+```cpp
 Copy code
 case YOUR_IR_CODE:
   printstring("Hi, this is");
@@ -72,7 +72,7 @@ Note down this code.
 Update the main code's switch case with the new IR code to assign functions.
 Copy Code Below
 
-cpp
+```cpp
 Copy code
 case NOTED_DOWN_IR_CODE:
   printstring("Your custom command here.");
@@ -86,7 +86,7 @@ Wire Library
 SSD1306Ascii
 IRremote
 Keyboard Library
-🎯 Purpose
+🎯 ###Purpose
 The IR Desktop Controller is designed with a vision to simplify daily computer tasks. With the expansion of technology, desktops are often cluttered with numerous applications and tasks. Our controller provides a unique solution to allow users to seamlessly control and manage their desktop environments with the press of a remote button.
 
 Given the limitations of smaller, low-memory devices, we opted for a design that maximizes functionality without overburdening the system. This approach ensures fast response times, reliability, and the flexibility to be customized by users of all experience levels.

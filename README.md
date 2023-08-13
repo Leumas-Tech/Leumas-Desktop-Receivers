@@ -54,44 +54,48 @@ Absolutely! Here's your content presented in an attractive markdown format:
 
 To chain functions or execute multiple commands with a single button press, simply place the desired functions in a sequence:
 
-```cpp
-Copy code
+
+
 case YOUR_IR_CODE:
   printstring("Hi, this is");
   delay(500); // Optional: Give a brief delay between commands.
   printstringenter("the IR Desktop Controller.");
   openapp("Notepad");
   break;
-🎮 Remote Programming
+
+  
+🎮 ###Remote Programming
 With v2, you can easily program your device with new remotes:
 
-Point the remote at the IR Desktop Controller.
-Press the desired button on the remote.
-The IR code will be displayed on the screen.
-Note down this code.
-Update the main code's switch case with the new IR code to assign functions.
-Copy Code Below
+###1. - Point the remote at the IR Desktop Controller.
+###2. - Press the desired button on the remote.
+###3. -The IR code will be displayed on the screen.
+###4. -Note down this code.
+###5. -Update the main code's switch case with the new IR code to assign functions.
 
-```cpp
+
+
 Copy code
 case NOTED_DOWN_IR_CODE:
   printstring("Your custom command here.");
   break;
-🌐 Additional Information
-Our Website: Leumas Tech
-Contact: Contact Leumas Tech
-Other Devices: Refer to our website for other innovative devices.
-🔗 Sources
-Wire Library
-SSD1306Ascii
-IRremote
-Keyboard Library
+
+
+🌐 ###Additional Information
+###Our Website: Leumas Tech
+###Contact: Contact Leumas Tech
+###Other Devices: Refer to our website for other innovative devices.
+🔗 ###Sources
+###Wire Library
+###SSD1306Ascii
+###IRremote
+###Keyboard Library
 🎯 ###Purpose
 The IR Desktop Controller is designed with a vision to simplify daily computer tasks. With the expansion of technology, desktops are often cluttered with numerous applications and tasks. Our controller provides a unique solution to allow users to seamlessly control and manage their desktop environments with the press of a remote button.
 
 Given the limitations of smaller, low-memory devices, we opted for a design that maximizes functionality without overburdening the system. This approach ensures fast response times, reliability, and the flexibility to be customized by users of all experience levels.
 
-⚠️ Important Notice
+⚠️ ###Important Notice
 For optimal functionality, this code should be used with an Arduino Micro or another Arduino MCU that supports USB emulation through the Keyboard.h library.
 
 
